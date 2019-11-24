@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Water Meter</title>
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="jumbotron text-center">
+      <h1>Показатели счетчиков воды</h1>
+      <nav>
+        <ul class="nav nav-pills justify-content-center">
+			<li class="nav-item">
+            	<a href="#" class="nav-link">2016</a>
+          	</li>
+			<li class="nav-item">
+            	<a href="#" class="nav-link">2017</a>
+          	</li>
+        	<li class="nav-item">
+            	<a href="#" class="nav-link">2018</a>
+          	</li>
+          	<li class="nav-item">
+            	<a class="nav-link disabled active">2019</a>
+          	</li>
+        </ul>
+      </nav>
+	</header>
+
+	<main class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th rowspan="2">Месяц</th>
+							<th colspan="2" class = "title">Показатели воды</th>
+						</tr>
+						<tr>
+							<th id="time">Холодная</th>
+							<th>Горячая</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Январь</th>
+							<td>231</td>
+							<td>43</td>
+						</tr>
+						<tr>
+							<th>Февраль</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Март</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Апрель</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Май</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Июнь</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Июль</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Август</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Сентябрь</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Октябрь</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Ноябрь</th>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Декабрь</th>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<aside class="col-lg-4">
+				<form>			
+					<fieldset class="form-group">
+						<legend>Показатели воды</legend>
+						<label class="mr-sm-2" for="cold">Холодная</label>
+						<input type="" class="form-control" id="cold" name="cold">
+						<label class="mr-sm-2" for="hot">Горячая</label>
+						<input type="" class="form-control" id="hot" name="hot">
+					</fieldset>
+
+					<div class="form-group">
+						<label for="date">Дата</label>
+						<input type="date" class="form-control" id="date" name="date">
+					</div>
+					<button class="btn btn-outline-primary">Отправить</button>
+				</form>
+			</aside>
+		</div>
+	</main>
+</body>
+</html>

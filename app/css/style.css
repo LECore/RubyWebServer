@@ -1,0 +1,35 @@
+html *{
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+.jumbotron{
+	color: #fff;
+	background-image: linear-gradient( 135deg, #43caff 10%, #9708CC 100%);
+	margin-bottom: 40px;
+}
+.jumbotron a{
+	color: #fff;
+}
+.jumbotron .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #1d465fa3;
+}
+
+main .table{
+	margin-bottom: 50px;
+}
+.table th{
+	padding-left: 30px;
+	color: #000000b2
+	font
+}
+.table td:hover{
+	background-color: #0000000e;
+}
+.table .title{
+	padding: 10.5;
+	text-align: center;
+}
+
+form .btn{
+	float: right;
+}
